@@ -1,7 +1,7 @@
 {
   "_meta": {
     "nume": "AiVenture Identity",
-    "versiune": "1.3",
+    "versiune": "1.4",
     "data": "2026-10-20",
     "regula": "Masterul unic. Tot ce privește AiVenture se editează DOAR aici; site-urile, Workerul și schema se generează din acest fișier. null = lipsă, nimic nu se inventează.",
     "public": true,
@@ -108,7 +108,9 @@
       "Omul caută. AI-ul recomandă. Agentul acționează.",
       "At the Edge. Human Controlled."
     ],
-    "stare_traduceri": "traduceri propuse de Claude pe 2026-10-20, de confirmat de Dan Ionescu; romana este textul de referinta"
+    "stare_traduceri": "aprobate de Dan Ionescu, 2026-10-20",
+    "slogan_oficial": "texte.slogan",
+    "slogan_nota": "aprobat 2026-10-20: \"Omul caută. AI-ul recomandă. Agentul acționează.\" (en/fr traduse); \"At the Edge. Human Controlled.\" ramane varianta secundara, neoficiala"
   },
   "brand": {
     "dosar": "brand/",
@@ -123,7 +125,7 @@
       "latime": 512,
       "inaltime": 512,
       "texte": {
-        "stare": "propus, neaprobat explicit",
+        "stare": "aprobat de Dan Ionescu, 2026-10-20",
         "alt": {
           "ro": "Sigla AiVenture: un creier stilizat cu circuite electronice, albastru luminos, într-un cerc, deasupra cuvântului „AiVenture”, pe fundal albastru închis.",
           "en": "AiVenture logo: a stylized brain with electronic circuits, glowing blue, inside a circle, above the word \"AiVenture\", on a dark blue background.",
@@ -161,7 +163,8 @@
       "manifest": "brand/site.webmanifest",
       "browserconfig": "brand/browserconfig.xml",
       "snippet_head": "brand/head-snippet.html",
-      "svg": null
+      "svg": "brand/favicon.svg",
+      "svg_nota": "SVG cu emblema PNG 192 incorporata (nu vectorizata); generat 2026-10-20"
     },
     "culori": {
       "fundal_favicon": "#051228",
@@ -172,7 +175,11 @@
       "retea": "https://5thelement.ai/assets/og-net-image.jpg",
       "latime": "1200",
       "inaltime": "630",
-      "alt": "AiVenture — Web-Om, Web-AI și Web-A2A"
+      "alt": "AiVenture — Web-Om, Web-AI și Web-A2A",
+      "copie_in_master": {
+        "aiventure.ro": "brand/og/aiventure-a2a-1200x630.png"
+      },
+      "retea_nota": "fisierul retelei (5thelement.ai/assets/og-net-image.jpg) este in alt repo, neaccesibil din aceasta sesiune; neimportat"
     }
   },
   "meta_retea": {
@@ -256,9 +263,6 @@
     }
   },
   "lipsuri": [
-    "brand.favicon.svg",
-    "brand.logo_oficial.texte (aprobare explicită)",
-    "texte.* en/fr (traduceri propuse, de confirmat)",
-    "texte.slogan (alegere oficială între cele 2 variante)"
+    "brand.imagine_partajare.retea: fisierul og-net-image.jpg nu este copiat in master (alt repo)"
   ]
 }
