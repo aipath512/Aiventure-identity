@@ -3,4 +3,4 @@ favicon.ico                    16/32/48; la RADACINA fiecarui domeniu (/favicon.
 favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png (180), android-chrome-192x192.png, android-chrome-512x512.png, maskable-512x512.png, mstile-150x150.png
 logo_512w.* / logo_256w.* (webp, jpg, png)  logo intreg, 512x512 si 256x256
 site.webmanifest, browserconfig.xml, head-snippet.html
-Emblema (creier) din logo-ul albastru, pe fundal #051228. SVG: lipsa (raster).
+Emblema (creier turcoaz) din sigla oficiala rotunda, pe fundal alb #FFFFFF. SVG: emblema PNG incorporata (raster).
