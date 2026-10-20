@@ -1,7 +1,7 @@
 {
   "_meta": {
     "nume": "AiVenture Identity",
-    "versiune": "1.0",
+    "versiune": "1.1",
     "data": "2026-10-20",
     "regula": "Masterul unic. Tot ce privește AiVenture se editează DOAR aici; site-urile, Workerul și schema se generează din acest fișier. null = lipsă, nimic nu se inventează.",
     "public": true,
@@ -248,9 +248,6 @@
       "faq_pagini": [
         "/geo/ghid/"
       ]
-    },
-    "ecbtax.com": {
-      "nota": "Client: ECB TAX ACCOUNTING & HR SRL. Date proprii ale clientului, NU sunt ale AiVenture. twitter:site @aipath512 cere acordul doamnei Roxana Deak (neconfirmat). Contactele clientului nu se modifică."
     }
   },
   "lipsuri": [
