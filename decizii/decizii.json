@@ -1,0 +1,41 @@
+{
+  "versiune": "1.0",
+  "data": "2026-10-20",
+  "decizii": [
+    {
+      "id": "D1",
+      "text": "Repo dedicat aipath512/aiventure-identity = masterul unic pentru toate informațiile AiVenture; un Worker prezent pe toate site-urile le folosește la nivel de rețea.",
+      "sursa": "utilizator 2026-10-20"
+    },
+    {
+      "id": "D2",
+      "text": "Tot ce privește firma este public; repo public, telefon și adresă pot apărea în schema rețelei.",
+      "sursa": "utilizator 2026-10-20"
+    },
+    {
+      "id": "D3",
+      "text": "Singurul e-mail oficial: contact@5thelement.ai; alte adrese se elimină (excepții: contactele clientului ECB TAX, exemple de formular, expeditorul formularului).",
+      "sursa": "utilizator 2026-10-20"
+    },
+    {
+      "id": "D4",
+      "text": "twitter:site = @aipath512 pentru toată rețeaua.",
+      "sursa": "utilizator 2026-10-19"
+    },
+    {
+      "id": "D5",
+      "text": "FAQPage scos de pe homepage; fără SearchAction deocamdată.",
+      "sursa": "utilizator 2026-10-19"
+    },
+    {
+      "id": "D6",
+      "text": "dateModified = ultima modificare reală de conținut; datePublished nu se inventează (IMPLICIT, nedovedit, dacă vine din lastmod).",
+      "sursa": "audit + utilizator 2026-10-19"
+    },
+    {
+      "id": "D7",
+      "text": "Favicon: emblema (creierul) din logo-ul albastru, fundal #051228.",
+      "sursa": "propunere acceptată implicit 2026-10-20"
+    }
+  ]
+}
