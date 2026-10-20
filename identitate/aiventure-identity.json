@@ -1,7 +1,7 @@
 {
   "_meta": {
     "nume": "AiVenture Identity",
-    "versiune": "1.1",
+    "versiune": "1.2",
     "data": "2026-10-20",
     "regula": "Masterul unic. Tot ce privește AiVenture se editează DOAR aici; site-urile, Workerul și schema se generează din acest fișier. null = lipsă, nimic nu se inventează.",
     "public": true,
@@ -38,7 +38,7 @@
   "contact": {
     "email": "contact@5thelement.ai",
     "telefon": "+40 737 123 540",
-    "whatsapp": "https://wa.me/40737123540",
+    "whatsapp": "https://api.whatsapp.com/send/?phone=40737123540",
     "limbi": [
       "ro",
       "en",
@@ -47,14 +47,18 @@
     "regula": "Singurul e-mail oficial este contact@5thelement.ai (decizie 2026-10-20). Alte adrese din imagini sau coduri nu sunt oficiale."
   },
   "profiluri": {
+    "reddit": "https://www.reddit.com/user/AiVentureRO/",
+    "linkedin_personal": "https://ro.linkedin.com/in/dan-ionesco-a856082a0",
     "linkedin_firma": "https://www.linkedin.com/company/107338970",
-    "linkedin_showcase": "https://www.linkedin.com/showcase/5thelement-ai",
+    "linkedin_showcase": "https://www.linkedin.com/showcase/5thelement-ai/",
     "crunchbase": "https://www.crunchbase.com/organization/aiventure-s-r-l",
-    "facebook": "https://www.facebook.com/people/Aiventure/61573220584246",
+    "facebook": "https://www.facebook.com/people/Aiventure/61573220584246/",
     "x": "https://x.com/aipath512",
     "youtube": "https://www.youtube.com/@AIVenture-q8u",
+    "whatsapp": "https://api.whatsapp.com/send/?phone=40737123540",
     "medium": "https://medium.com/@aipath512",
-    "twitter_site": "@aipath512"
+    "twitter_site": "@aipath512",
+    "nota": "Adresele sunt scrise exact cum le-a dat utilizatorul (2026-10-20), cu excepția YouTube: handle-ul dat era @AIVenture-q8 (404); canalul real este @AIVenture-q8u (verificat live, canal „AI Venture”)."
   },
   "retea": {
     "flagship": "5thelement.ai",
