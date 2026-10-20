@@ -1,5 +1,5 @@
 {
-  "versiune": "1.1",
+  "versiune": "1.2",
   "data": "2026-10-20",
   "decizii": [
     {
@@ -40,6 +40,11 @@
     {
       "id": "D8",
       "text": "ECB TAX ACCOUNTING & HR SRL (ecbtax.com) este altă firmă. Deciziile și datele din acest repo sunt doar pentru AiVenture; nimic din ele nu se aplică automat la ecbtax.com și datele clientului nu stau aici.",
+      "sursa": "utilizator 2026-10-20"
+    },
+    {
+      "id": "D9",
+      "text": "Lista oficială de profiluri: Reddit (AiVentureRO), LinkedIn personal, firmă și showcase, Crunchbase, Facebook, X, YouTube (@AIVenture-q8u), WhatsApp (api.whatsapp.com), Medium.",
       "sursa": "utilizator 2026-10-20"
     }
   ]

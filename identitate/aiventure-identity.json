@@ -1,7 +1,7 @@
 {
   "_meta": {
     "nume": "AiVenture Identity",
-    "versiune": "1.1",
+    "versiune": "1.3",
     "data": "2026-10-20",
     "regula": "Masterul unic. Tot ce privește AiVenture se editează DOAR aici; site-urile, Workerul și schema se generează din acest fișier. null = lipsă, nimic nu se inventează.",
     "public": true,
@@ -38,7 +38,7 @@
   "contact": {
     "email": "contact@5thelement.ai",
     "telefon": "+40 737 123 540",
-    "whatsapp": "https://wa.me/40737123540",
+    "whatsapp": "https://api.whatsapp.com/send/?phone=40737123540",
     "limbi": [
       "ro",
       "en",
@@ -47,14 +47,18 @@
     "regula": "Singurul e-mail oficial este contact@5thelement.ai (decizie 2026-10-20). Alte adrese din imagini sau coduri nu sunt oficiale."
   },
   "profiluri": {
+    "reddit": "https://www.reddit.com/user/AiVentureRO/",
+    "linkedin_personal": "https://ro.linkedin.com/in/dan-ionesco-a856082a0",
     "linkedin_firma": "https://www.linkedin.com/company/107338970",
-    "linkedin_showcase": "https://www.linkedin.com/showcase/5thelement-ai",
+    "linkedin_showcase": "https://www.linkedin.com/showcase/5thelement-ai/",
     "crunchbase": "https://www.crunchbase.com/organization/aiventure-s-r-l",
-    "facebook": "https://www.facebook.com/people/Aiventure/61573220584246",
+    "facebook": "https://www.facebook.com/people/Aiventure/61573220584246/",
     "x": "https://x.com/aipath512",
     "youtube": "https://www.youtube.com/@AIVenture-q8u",
+    "whatsapp": "https://api.whatsapp.com/send/?phone=40737123540",
     "medium": "https://medium.com/@aipath512",
-    "twitter_site": "@aipath512"
+    "twitter_site": "@aipath512",
+    "nota": "Adresele sunt scrise exact cum le-a dat utilizatorul (2026-10-20), cu excepția YouTube: handle-ul dat era @AIVenture-q8 (404); canalul real este @AIVenture-q8u (verificat live, canal „AI Venture”)."
   },
   "retea": {
     "flagship": "5thelement.ai",
@@ -87,23 +91,24 @@
   "texte": {
     "descriere": {
       "ro": "AiVenture oferă servicii pentru Web-Om, Web-AI și Web-A2A și produse pentru analiză, implementare și infrastructură AI/A2A.",
-      "en": null,
-      "fr": null
+      "en": "AiVenture provides services for the Human Web, the AI Web and the A2A Web, and products for AI/A2A analysis, implementation and infrastructure.",
+      "fr": "AiVenture propose des services pour le Web humain, le Web IA et le Web A2A, ainsi que des produits d'analyse, de mise en œuvre et d'infrastructure IA/A2A."
     },
     "nume": {
       "ro": "AiVenture S.R.L.",
-      "en": null,
-      "fr": null
+      "en": "AiVenture S.R.L.",
+      "fr": "AiVenture S.R.L."
     },
     "slogan": {
-      "ro": null,
-      "en": null,
-      "fr": null
+      "ro": "Omul caută. AI-ul recomandă. Agentul acționează.",
+      "en": "Humans search. AI recommends. Agents act.",
+      "fr": "L'humain cherche. L'IA recommande. L'agent agit."
     },
     "slogan_variante_gasite": [
       "Omul caută. AI-ul recomandă. Agentul acționează.",
       "At the Edge. Human Controlled."
-    ]
+    ],
+    "stare_traduceri": "traduceri propuse de Claude pe 2026-10-20, de confirmat de Dan Ionescu; romana este textul de referinta"
   },
   "brand": {
     "dosar": "brand/",
@@ -251,10 +256,9 @@
     }
   },
   "lipsuri": [
-    "texte.nume.en / fr",
-    "texte.descriere.en / fr",
-    "texte.slogan.* (de ales oficial)",
     "brand.favicon.svg",
-    "brand.logo_oficial.texte (aprobare explicită)"
+    "brand.logo_oficial.texte (aprobare explicită)",
+    "texte.* en/fr (traduceri propuse, de confirmat)",
+    "texte.slogan (alegere oficială între cele 2 variante)"
   ]
 }
