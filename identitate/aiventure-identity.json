@@ -1,8 +1,8 @@
 {
   "_meta": {
     "nume": "AiVenture Identity",
-    "versiune": "1.7",
-    "data": "2026-10-20",
+    "versiune": "1.8",
+    "data": "2026-11-18",
     "regula": "Masterul unic. Tot ce privește AiVenture se editează DOAR aici; site-urile, Workerul și schema se generează din acest fișier. null = lipsă, nimic nu se inventează.",
     "public": true,
     "nota_public": "Firma este persoană juridică; toate datele din acest fișier sunt publice (decizie 2026-10-20)."
@@ -35,6 +35,33 @@
       "functie": "Administrator"
     }
   },
+  "regula_identitate": {
+    "scop": "Elimină confuzia internă (AiVenture apare de mai multe ori, cu roluri diferite) și reduce confuzia cu alte entități numite AiVenture / AI Ventures din lume.",
+    "firma": "„AiVenture S.R.L.” = DOAR persoana juridică. Apare numai în zona legală, schema (legalName) și footer, întotdeauna împreună cu CUI 51415878 și București, România.",
+    "brand": "„5thelement.ai” = brandul public. Titluri, texte de marketing, butoane și mesaje folosesc 5thelement.ai.",
+    "aiventure_ro": "aiventure.ro = versiunea în limba română a 5thelement.ai. Nu se prezintă ca a doua identitate.",
+    "interzis": [
+      "„AiVenture / 5thelement.ai” sau „Official AiVenture / 5thelement.ai Presence” (două nume pentru același lucru)",
+      "„AiVenture” singur, fără „S.R.L.”, în texte de marketing",
+      "resurse de identitate (siglă, insignă) servite de pe alt domeniu decât site-ul însuși sau masterul (ex. insigna EU AI Act de pe firmsfinder.eu)"
+    ],
+    "dezambiguizare_schema": {
+      "@id": "https://5thelement.ai/#organization",
+      "name": "5thelement.ai",
+      "legalName": "AiVenture S.R.L.",
+      "identifier": [
+        "CUI 51415878",
+        "VAT RO51415878",
+        "EUID ROONRC.J2025016406000",
+        "J2025016406000"
+      ],
+      "address": "firma.sediu",
+      "founder_orcid": "firma.fondator.orcid",
+      "sameAs": "toate adresele din profiluri (aceeași listă pe toate site-urile)"
+    },
+    "aplicare": "Workerul de rețea citește această regulă; nicio pagină nu o rescrie local.",
+    "stare": "PROPUNERE 2026-11-18 — de aprobat de Dan Ionescu înainte de aplicare pe site-uri"
+  },
   "contact": {
     "email": "contact@5thelement.ai",
     "telefon": "+40 737 123 540",
@@ -63,14 +90,12 @@
   "retea": {
     "flagship": "5thelement.ai",
     "ancora_organization": {
-      "en": "https://5thelement.ai",
-      "fr": "https://5thelement.ai",
-      "ro": "https://aiventure.ro"
+      "id_unic": "https://5thelement.ai/#organization",
+      "nota": "O singură entitate pe toate site-urile, în toate limbile (ro/en/fr). aiventure.ro NU declară o a doua organizație; folosește același @id. (înainte: ro → aiventure.ro, en/fr → 5thelement.ai = două identități)"
     },
     "domenii": [
       "5thelement.ai",
       "aiventure.ro",
-      "aiventure.uk",
       "1clic-ia.eu",
       "1clic-ia.fr",
       "3webobs.com",
@@ -83,10 +108,13 @@
       "eu-ai-act.ro",
       "eu-ai-audit.eu",
       "eu-ai-ready.eu",
-      "floride-e2.com",
       "the3webs.com",
       "firmsfinder.eu"
-    ]
+    ],
+    "domenii_scoase": {
+      "aiventure.uk": "scos definitiv din rețea 2026-10-21",
+      "floride-e2.com": "scos definitiv din rețea 2026-10-21"
+    }
   },
   "texte": {
     "descriere": {
@@ -208,7 +236,7 @@
     "html_lang_ro": "ro",
     "referrer": "strict-origin-when-cross-origin",
     "author": "AiVenture S.R.L.",
-    "sufix_titlu": " | AiVenture",
+    "sufix_titlu": " | 5thelement.ai",
     "breadcrumb_acasa": "Acasă",
     "twitter_card": "summary_large_image"
   },
@@ -283,7 +311,9 @@
     }
   },
   "lipsuri": [
-    "brand.imagine_partajare.retea: fisierul og-net-image.jpg nu este copiat in master (alt repo)"
+    "brand.imagine_partajare.retea: fisierul og-net-image.jpg nu este copiat in master (alt repo)",
+    "DE DECIS: sigla oficială scrie „AiVenture®” și „www.aiventure.ro” — contrazice regula brand = 5thelement.ai (păstrăm sigla ca siglă a firmei sau facem siglă de brand 5thelement.ai?)",
+    "DE DECIS: profilurile Facebook „Aiventure” și YouTube „AIVenture” poartă numele firmei, nu al brandului"
   ],
   "decizii_aprobate": "toate elementele din master aprobate de Dan Ionescu pe 2026-10-20, cu exceptia imaginii OG a retelei (alt repo)"
 }
