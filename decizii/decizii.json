@@ -1,6 +1,6 @@
 {
-  "versiune": "1.2",
-  "data": "2026-10-20",
+  "versiune": "1.3",
+  "data": "2026-11-18",
   "decizii": [
     {
       "id": "D1",
@@ -46,6 +46,11 @@
       "id": "D9",
       "text": "Lista oficială de profiluri: Reddit (AiVentureRO), LinkedIn personal, firmă și showcase, Crunchbase, Facebook, X, YouTube (@AIVenture-q8u), WhatsApp (api.whatsapp.com), Medium.",
       "sursa": "utilizator 2026-10-20"
+    },
+    {
+      "id": "D10",
+      "text": "Regula de identitate unică: AiVenture S.R.L. = doar firma juridică (cu CUI + București); 5thelement.ai = brandul public; aiventure.ro = versiunea română a aceluiași brand; un singur @id schema.org pe toată rețeaua. Detalii: identitate/aiventure-identity.json → regula_identitate.",
+      "sursa": "utilizator 2026-11-18 (de acord cu propunerea); fără Wikidata/Wikipedia, la cererea utilizatorului"
     }
   ]
 }
