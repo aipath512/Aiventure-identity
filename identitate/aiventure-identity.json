@@ -1,7 +1,7 @@
 {
   "_meta": {
     "nume": "AiVenture Identity",
-    "versiune": "1.9",
+    "versiune": "1.10",
     "data": "2026-11-18",
     "regula": "Masterul unic. Tot ce privește AiVenture se editează DOAR aici; site-urile, Workerul și schema se generează din acest fișier. null = lipsă, nimic nu se inventează.",
     "public": true,
@@ -88,7 +88,6 @@
       "5thelement.ai",
       "aiventure.ro",
       "1clic-ia.eu",
-      "1clic-ia.fr",
       "3webobs.com",
       "ai-lens.eu",
       "aireadyinjector.com",
@@ -104,7 +103,8 @@
     ],
     "domenii_scoase": {
       "aiventure.uk": "scos definitiv din rețea 2026-10-21",
-      "floride-e2.com": "scos definitiv din rețea 2026-10-21"
+      "floride-e2.com": "scos definitiv din rețea 2026-10-21",
+      "1clic-ia.fr": "domeniul nu mai există în registrul .fr (DNS NXDOMAIN, verificat 2026-11-18); scos din rețea"
     }
   },
   "texte": {
