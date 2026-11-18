@@ -60,7 +60,7 @@
       "sameAs": "toate adresele din profiluri (aceeași listă pe toate site-urile)"
     },
     "aplicare": "Workerul de rețea citește această regulă; nicio pagină nu o rescrie local.",
-    "stare": "PROPUNERE 2026-11-18 — de aprobat de Dan Ionescu înainte de aplicare pe site-uri"
+    "stare": "APROBAT de Dan Ionescu 2026-11-18; aplicarea pe site-uri urmează prin Workerul de rețea"
   },
   "contact": {
     "email": "contact@5thelement.ai",
