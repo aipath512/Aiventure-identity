@@ -1,8 +1,8 @@
 {
   "_meta": {
     "nume": "AiVenture Identity",
-    "versiune": "1.10",
-    "data": "2026-11-18",
+    "versiune": "1.11",
+    "data": "2026-11-19",
     "regula": "Masterul unic. Tot ce privește AiVenture se editează DOAR aici; site-urile, Workerul și schema se generează din acest fișier. null = lipsă, nimic nu se inventează.",
     "public": true,
     "nota_public": "Firma este persoană juridică; toate datele din acest fișier sunt publice (decizie 2026-10-20)."
@@ -67,7 +67,9 @@
   "profiluri": {
     "reddit": "https://www.reddit.com/user/AiVentureRO/",
     "linkedin_personal": "https://ro.linkedin.com/in/dan-ionesco-a856082a0",
+    "linkedin_personal_nume": "Dan Ionescu",
     "linkedin_firma": "https://www.linkedin.com/company/107338970",
+    "linkedin_firma_nume": "AiVenture Digital",
     "linkedin_showcase": "https://www.linkedin.com/showcase/5thelement-ai/",
     "crunchbase": "https://www.crunchbase.com/organization/aiventure-s-r-l",
     "facebook": "https://www.facebook.com/people/Aiventure/61573220584246/",
@@ -76,7 +78,8 @@
     "whatsapp": "https://api.whatsapp.com/send/?phone=40737123540",
     "medium": "https://medium.com/@aipath512",
     "twitter_site": "@aipath512",
-    "nota": "Adresele sunt scrise exact cum le-a dat utilizatorul (2026-10-20), cu excepția YouTube: handle-ul dat era @AIVenture-q8 (404); canalul real este @AIVenture-q8u (verificat live, canal „AI Venture”)."
+    "nota": "Adresele sunt scrise exact cum le-a dat utilizatorul (2026-10-20), cu excepția YouTube: handle-ul dat era @AIVenture-q8 (404); canalul real este @AIVenture-q8u (verificat live, canal „AI Venture”).",
+    "nota_linkedin": "2026-11-19: pagina de firmă LinkedIn se numește „AiVenture Digital”, pentru că numele „AiVenture” e folosit și de alții. Dan Ionescu are cont LinkedIn personal."
   },
   "retea": {
     "flagship": "5thelement.ai",
@@ -304,5 +307,12 @@
   "lipsuri": [
     "brand.imagine_partajare.retea: fisierul og-net-image.jpg nu este copiat in master (alt repo)"
   ],
-  "decizii_aprobate": "toate elementele din master aprobate de Dan Ionescu pe 2026-10-20, cu exceptia imaginii OG a retelei (alt repo)"
+  "decizii_aprobate": "toate elementele din master aprobate de Dan Ionescu pe 2026-10-20, cu exceptia imaginii OG a retelei (alt repo)",
+  "autor_blog": {
+    "nume": "AiVenture Team",
+    "pagina": "https://aiventure.ro/autor/aiventure-team/",
+    "id_schema": "https://5thelement.ai/#team",
+    "organizatie": "https://5thelement.ai/#organization",
+    "nota": "2026-11-19: autorul tuturor articolelor de blog; pagina autorului are firma legală completă și lista articolelor."
+  }
 }
